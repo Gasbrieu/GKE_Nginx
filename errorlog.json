@@ -1,0 +1,133 @@
+[{
+  "textPayload": "Running the following command: skaffold [apply --filename=/workspace/stable/skaffold.yaml --label=\"skaffold.dev/run-id=2uivvltcyjyug2zi50o0jpsqdp7sxrw8mbfcyh3rbr9frb1jqux\" /workspace/stable/manifest.yaml]",
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-34",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "project_id": "projectId",
+      "build_trigger_id": "",
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689"
+    }
+  },
+  "timestamp": "2023-07-26T14:29:34.373349676Z",
+  "severity": "INFO",
+  "labels": {
+    "build_tags": "cloud-deploy-project-projectId,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "projects/projectId/logs/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:29:34.961258201Z"
+},
+{
+  "textPayload": "Starting deploy...",
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-35",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "build_trigger_id": "",
+      "project_id": "projectId",
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689"
+    }
+  },
+  "timestamp": "2023-07-26T14:30:06.486707687Z",
+  "severity": "INFO",
+  "labels": {
+    "build_tags": "cloud-deploy-project-projectId,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "projects/projectId/logs/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:30:06.966470872Z"
+},
+{
+  "textPayload": "Get \"https://35.247.212.217/version\": dial tcp 35.247.212.217:443: i/o timeout",
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-36",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "build_trigger_id": "",
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689",
+      "project_id": "projectId"
+    }
+  },
+  "timestamp": "2023-07-26T14:30:36.492435805Z",
+  "severity": "INFO",
+  "labels": {
+    "build_tags": "cloud-deploy-project-projectId,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "projects/projectId/logs/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:30:36.963731069Z"
+},
+{
+  "textPayload": "error: error running command: exit status 1",
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-37",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689",
+      "project_id": "projectId",
+      "build_trigger_id": ""
+    }
+  },
+  "timestamp": "2023-07-26T14:30:36.497702898Z",
+  "severity": "INFO",
+  "labels": {
+    "build_tags": "cloud-deploy-project-projectId,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "projects/projectId/logs/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:30:36.963731069Z"
+},
+{
+  "textPayload": "Get \"https://35.247.212.217/version\": dial tcp 35.247.212.217:443: i/o timeout",
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-38",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "build_trigger_id": "",
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689",
+      "project_id": "projectId"
+    }
+  },
+  "timestamp": "2023-07-26T14:30:36.497717349Z",
+  "severity": "INFO",
+  "labels": {
+    "build_tags": "cloud-deploy-project-projectId,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "projects/projectId/logs/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:30:36.963731069Z"
+},
+{
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-39",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "build_trigger_id": "",
+      "project_id": "projectId",
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689"
+    }
+  },
+  "timestamp": "2023-07-26T14:30:36.497718555Z",
+  "severity": "INFO",
+  "labels": {
+    "build_tags": "cloud-deploy-project-projectId,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "projects/projectId/logs/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:30:36.963731069Z"
+},
+{
+  "textPayload": "ERROR",
+  "insertId": "50ac9fa9-0387-4674-9bb1-12ba3c837689-40",
+  "resource": {
+    "type": "build",
+    "labels": {
+      "build_trigger_id": "",
+      "build_id": "50ac9fa9-0387-4674-9bb1-12ba3c837689",
+    }
+  },
+  "timestamp": "2023-07-26T14:30:36.863109009Z",
+  "severity": "INFO",
+  "labels": {
+    "build_step": "MAIN",
+    "build_tags": "cloud-deploy-project,cloud-deploy-location-southamerica-east1,cloud-deploy-delivery-pipeline-hello-world-app,cloud-deploy-release-initial-release-2,cloud-deploy-rollout-initial-release-2-to-production-0004,cloud-deploy-operation-type-deploy,cloud-deploy-phase-stable,cloud-deploy-job-deploy,cloud-deploy-job-run-410c0737-c8f5-4207-9295-4cc53ee5cf86,cloud-deploy-request-id-ce986655c7c647f0bc90676b941e56df"
+  },
+  "logName": "/cloudbuild",
+  "receiveTimestamp": "2023-07-26T14:30:36.963731069Z"
+}]
+
