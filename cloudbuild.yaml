@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'southamerica-east1-docker.pkg.dev/devopssaocarlosmonks/docker-main-app/hello-world:v2', '.']
+    args: ['build', '-t', 'southamerica-east1-docker.pkg.dev/devopssaocarlosmonks/docker-main-app/hello-world:v3', '.']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'southamerica-east1-docker.pkg.dev/devopssaocarlosmonks/docker-main-app/hello-world:v2']
+    args: ['push', 'southamerica-east1-docker.pkg.dev/devopssaocarlosmonks/docker-main-app/hello-world:v3']
